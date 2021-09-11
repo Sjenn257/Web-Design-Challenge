@@ -64,7 +64,24 @@
                 <div class="card border-0 shadow my-5">  
                     <div class="card-body p-5">
                         <h1>Summary: Latitude vs. X</h1>
+                        <hr class="my-4"> 
+                        <p class="lead">Using OpenWeatherMap API, I have analyzed 500+ cities across the world of varying distance from the equator to create a representative model of weather across the world.
 
+                            WeatherPy
+                            
+                            In studying the scatter plots of 500+ cities in relation to their distance from the equator, my analysis showed a positive correlation to temperature the closer they are to the equator. Humidity and Cloudiness % exists everywhere but appears to be more dense in the northern hemisphere. Wind speed did not show a correlation relative to its distance from the equator.
+                            
+                            VacationPy
+                            
+                            In this analysis, I extracted cities with my ideal weather in mind.
+                            
+                            Temperature between 65 and 90 degrees
+                            Humidity less than 20%
+                            Cloudiness less than 25%
+                            Wind Speed less than 15mph
+                            Then, using Google API, I found the nearest hotel based on their lat/longs.
+                            
+                            Finally, I created a heatmap of all the cities used in WeatherPy to represent the humidity across the world and plotted the hotels for my ideal weather spots!.</p>
                     </div>
                 </div>
             </div>
@@ -72,7 +89,42 @@
                 <div class="card border-0 shadow my-5">  
                     <div class="card-body p-5">
                         <h2>Visualizations</h2>
+                        <hr class="my-4"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Max Temp</h3>
+                                    <div class="thumbnail">
+                                        <img src="visualizations\Fig1.png" alt="Fig 1" class="img-thumbnail">
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Humidity</h3>
+                                    <div class="thumbnail">
+                                        <img src="visualizations\Fig2.png" alt="Fig 2" class="img-thumbnail">
 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Cloudiness</h3>
+                                    <div class="thumbnail">
+                                        <img src="visualizations\Fig3.png" alt="Fig 3" class="img-thumbnail">
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Wind Speed</h3>
+                                    <div class="thumbnail">
+                                        <img src="visualizations\Fig4.png" alt="Fig 4" class="img-thumbnail">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

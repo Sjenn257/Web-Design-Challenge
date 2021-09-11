@@ -32,7 +32,7 @@ h1 {
     color: rgb(8, 150, 103);
     font-family: 'Times New Roman';
     font-weight: bold !important;
-    font-size: 24px;
+    font-size: 34px !important;
 
 }
 
@@ -40,6 +40,26 @@ h2 {
     color: rgb(8, 150, 103);
     font-family: 'Times New Roman';
     font-weight: bold !important;
-    font-size: 20px;
+    font-size: 26px !important;
 
 }
+
+h3 {
+    font-family: 'Times New Roman';
+    font-weight: bold !important;
+    font-size: 10px !important;
+    text-align: center;
+
+}
+
+.col-md-6 {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2px;
+    width: 160px;
+  }
