@@ -1,2 +1,2 @@
-# Web-Design-Challenge
+## Latitude vs. X
 Web Design Challenge
