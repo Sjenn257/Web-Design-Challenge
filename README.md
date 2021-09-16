@@ -6,4 +6,4 @@ This site contains webpages with visualizations of the scatter plots relative to
 
 What was the result? You'll have to visit the site to see! 
 
-The landing page is index.html or you can access the public URL at https://sjenn257.github.io/Web-Design-Challenge/index.html
+The landing page is index.html or you can access the public URL at https://sjenn257.github.io/Web-Design-Challenge
